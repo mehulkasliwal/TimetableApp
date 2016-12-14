@@ -15,6 +15,25 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:id="@+id/radioGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EG"
+            android:id="@+id/rdbeg"
+            android:checked="false"
+            android:layout_above="@+id/spinner1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WS"
+            android:id="@+id/rdbws"
+            android:checked="false"
+            android:layout_above="@+id/rdbeg"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
     </RadioGroup>
 
@@ -26,7 +45,8 @@
         android:spinnerMode="dropdown"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:visibility="visible" />
 
     <Spinner
         android:id="@+id/spinner2"
@@ -36,7 +56,8 @@
         android:spinnerMode="dropdown"
         android:layout_below="@+id/spinner1"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:visibility="visible" />
     <TextView
         android:text="@string/please_choose_your_Course"
         android:layout_width="wrap_content"
@@ -47,6 +68,10 @@
         android:layout_marginTop="31dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+
+
+
 
 
 </RelativeLayout>
