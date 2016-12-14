@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TimeTable App</string>
     <string name="please_choose_your_course">Please choose your course</string>
+    <string name="please_choose_your_Course">Please Choose Your Course</string>
 </resources>
